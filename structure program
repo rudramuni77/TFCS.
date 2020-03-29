@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+struct stud
+{
+char name;
+int usn;
+int tot;
+int a,b,c;
+}stud1;
+printf("enter student information");
+printf("enter name");
+scanf("%s",&stud.name);
+printf("enter usn");
+scanf("%d",&stud.usn);
+printf("enter student marks in s1);
+scanf("%d",&a);
+printf(enter student marks in s2");
+scanf("%d",&b);
+printf("enter marks in s3");
+scanf("%d",&c);
+tot=a+b+c;
+printf("total marks is %d",tot);
+}
